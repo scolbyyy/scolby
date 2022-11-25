@@ -1,0 +1,156 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: 'DM Mono';
+    font-size: 20px;
+    line-height: 1.25;
+}
+
+h1 {
+    font-family: 'Staatliches';
+    font-size: 50px;
+    color: white;
+    letter-spacing: 7px;
+}
+#part1 {
+    text-align: center;
+    z-index: 1;
+    position: relative;
+    background-color: #94bb96;
+    color: #94bb96;
+    text-shadow:-1px 1px black,
+                1px 1px black,
+                1px -1px black,
+                -1px -1px black;
+}
+nav {
+    position: sticky;
+    top: 0px;
+    text-align: center;
+    z-index: 1;
+    background-color: white;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+img {
+    filter: grayscale(100%);
+    width: 100vw;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav a {
+    transition-property: color;
+    transition-duration: .2s;
+    transition-timing-function: linear;
+}
+nav a:link {
+    color: black;
+    background-color: white;
+}
+nav a:visited {
+    color: black;
+    background-color: white;
+}
+nav a:hover {
+    color: #94bb96;
+    background-color: white;
+}
+nav a:active {
+    color: #94bb96;
+    background-color: white;
+}
+
+a {
+    color: black;
+    background-color: #94bb96;
+}
+a:link {
+    color: black;
+    background-color: #94bb96;
+}
+a:visited {
+    color: black;
+    background-color: #94bb96;
+}
+a:active {
+    color: black;
+    background-color: #94bb96;
+}
+
+h2 {
+    font-family: 'Staatliches';
+    font-size: 50px;
+    text-align: center;
+    
+    letter-spacing: 7px;
+        color: white; 
+        background-color: #94bb96;
+        margin-top: 30px;
+        margin-bottom: 30px;
+}
+
+h3 {
+    font-family: 'Staatliches';
+    font-size: 50px;
+    font-weight: normal;
+    color: white;
+    text-shadow:-1px 1px black,
+                1px 1px black,
+                1px -1px black,
+                -1px -1px black;
+    letter-spacing: 7px;
+}
+
+li {
+    margin-left: 20px;
+}
+
+.section {
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.blue {
+    display: inline;
+    color: black;
+    background-color: #94bb96;
+}
+
+@media screen and (max-width: 600px){
+    body {
+        font-size: 16px;
+    }
+    header {
+        margin:30px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 30px;
+        width: 100%;
+    }
+    h3 {
+        font-size: 30px;
+    }
+    .section {
+        margin: 30px;
+        width: 87%;
+    }
+    iframe {
+        width: 90%;
+    }
+}
